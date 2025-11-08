@@ -1,0 +1,22 @@
+sources:
+  - type: channel
+    id: UCevUmOfLTUX9MNGJQKsPdIA      # NeetCodeIO channel id
+    include_keywords: ["leetcode", "two pointers", "heap", "dp"]  # filters
+    exclude_keywords: ["sponsor", "announcement"]                 # optional
+  - type: playlist
+    name: Easy problems
+    id: PLQpVsaqBj4RIJdYW6Y-iAswxCZeocfoRW&si=jaPmRLoSFJ_Fs4FU
+  - type: playlist
+    name: Medium problems
+    id: PLQpVsaqBj4RLwXMZ9LaAFf4rVowiC3ZcG&si=8smrn0iGI8im1S4F
+  - type: playlist
+    name: Hard problems
+    id: PLQpVsaqBj4RI3jgIzqK7VJHy8Esacg-ow&si=a05nmLCjwXeNkN22
+  # - type: video               # for specific videos 
+  #   id: dQw4w9WgXcQ
+limits:
+  min_duration_sec: 60
+  max_duration_sec: 7200
+formats:
+  video: "bestvideo+bestaudio/best"
+  captions_langs: ["en", "en-US", "en-GB"]
