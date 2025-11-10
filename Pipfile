@@ -7,6 +7,9 @@ name = "pypi"
 pyyaml = "*"
 google-api-python-client = "*"
 dotenv = "*"
+boto3 = "*"
+ffmpeg = "*"
+yt-dlp = "*"
 
 [dev-packages]
 
