@@ -53,6 +53,6 @@ s3://{S3_BUCKET}/yt/{video_id}/
 | Ingest metadata      | `meta#v0`          | `raw/`, `derived/`                       | audio, captions, hashes         |
 | Planned segments     | `segments#v0`      | `derived/segments.json` (optional)       | when the speaker talks code     |
 | Materialized frames  | `frames#v0`        | `derived/frames/seg_xxxx/frame_xxxx.jpg` | actual screenshots + OCR data   |
-| Alignment (optional) | `alignment#v0`     | `derived/alignment.json`                 | word-level timings for captions |
+| Alignment            | `alignment#v0`     | `derived/alignment.json`                 | word-level timings for captions |
 
 ```
