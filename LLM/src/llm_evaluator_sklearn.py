@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from src.problem_loader import ProblemLoader
-from src.llm_client import chat  # assumes you already have a Groq wrapper at src/llm_client.py
+from src.llm_client import chat 
 from src.retriever_sklearn import SKLearnRetriever
 
 PROMPT_SYSTEM = (
