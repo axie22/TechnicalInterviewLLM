@@ -140,7 +140,7 @@ export default function About() {
               />
               <TeamMemberCard
                 name="Matthew Cheng"
-                role="Maching Learning Engineer"
+                role="Machine Learning Engineer"
                 description="Matthew is passionate about building the models that power the technical interview. He trains and tests the models, ensuring the conversations seem natural and smooth."
                 linkedinUrl="https://www.linkedin.com/in/matthew-cheng4/"
               />
